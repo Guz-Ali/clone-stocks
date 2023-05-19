@@ -12,11 +12,12 @@ function App() {
         <Header />
       </div>
       {/* Body */}
-      <div className="app__body"></div>
-      <div className="app__container">
-        <Newsfeed />
-        {/* Stats */}
-        <Stats />
+      <div className="app__body">
+        <div className="app__container">
+          <Newsfeed />
+          {/* Stats */}
+          <Stats />
+        </div>
       </div>
     </div>
   );
